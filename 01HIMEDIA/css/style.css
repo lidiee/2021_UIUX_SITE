@@ -41,6 +41,7 @@
         font-size: 79px; font-weight: bold; color: white;
         line-height: 70px;
         text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        letter-spacing: 10px;
     }
     .visualWrap .visualText p{display: none;}
     .visualWrap .visual img{
@@ -51,37 +52,47 @@
     .bannerWrap{
         width: 100%;
         margin: 0 auto;
-        margin-bottom: 50px;
         padding: 16px;
     }
     .bannerWrap li{
         float: left;
         width: 50%;
-        height: 200px;
-        padding: 10px; padding-top: 19px;
+        padding: 10px; padding-top: 20px;
     }
     .bannerWrap img{
         display: block;
         margin: 0 auto;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
     }
     .bannerWrap .text{
         text-align: center;
         color: white;
+        margin-bottom: 15px;
     }
-    .bannerWrap h3{
-        font-size: 18px;
-        margin-bottom: 5px;
-    }
-    .bannerWrap p{
-        font-size: 14px;
-        letter-spacing: -1px;
-    }
+    .bannerWrap p{display: none;}
+    
     .bannerWrap li:nth-child(1){background-color: #7C99B9;}
     .bannerWrap li:nth-child(2){background-color: #4F74A1;}
     .bannerWrap li:nth-child(3){background-color: #4B8CE0;}
     .bannerWrap li:nth-child(4){background-color: #3DB5F2;}
     .bannerWrap li:nth-child(5){display: none;}
+
+    /* content */
+    .content{padding: 16px;}
+    .content li{
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+    }
+    .content img{
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 5px 5px 0 0;
+    }
+    .content .text{
+        color: #333333;
+        padding: 20px 12px;
+    }
+    
 }
 
 @media screen and (min-width:700px){
@@ -173,7 +184,7 @@
     .bannerWrap li{
         float: left;
         width: 20%;
-        height: 200px;
+        height: 196px;
         padding: 10px; padding-top: 19px;
     }
     .bannerWrap img{
@@ -198,4 +209,24 @@
     .bannerWrap li:nth-child(3){background-color: #4B8CE0;}
     .bannerWrap li:nth-child(4){background-color: #3DB5F2;}
     .bannerWrap li:nth-child(5){background-color: #95C8FF;}
+    
+    /* content */
+    .content{
+        width: 980px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .content li{
+        float: left;
+        width: 310px;margin-right: 25px;
+    }
+    .content li:last-child{margin-right: 0;}
+    .content .text{
+        color: #333333;
+        padding: 18px 16px;
+        border: 1px solid #dddddd;
+        border-top: 0 none;
+    }
+    .content img{display: block;}
+    .content p{font-size: 14px;}
 }
