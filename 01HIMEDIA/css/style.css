@@ -52,6 +52,7 @@
         width: 100%;
         margin: 0 auto;
         margin-bottom: 50px;
+        padding: 16px;
     }
     .bannerWrap li{
         float: left;
