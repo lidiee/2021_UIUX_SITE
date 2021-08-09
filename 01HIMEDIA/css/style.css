@@ -1,0 +1,93 @@
+@charset "utf-8";
+.toggle{
+    width: 48px; height: 48px; border: 1px solid #aaa;
+    position: relative;
+    cursor:pointer;
+    display: none;
+}
+.toggle div{
+    width: 24px; height: 3px; background-color: #aaa;
+    border-radius: 1.5px;position: absolute;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.toggle div.bar1{top: 12px;}
+.toggle div.bar2{top: 21px;}
+.toggle div.bar3{top: 30px;}
+
+@media screen and (max-width:699px){
+    /* header */
+    #header{
+        padding: 4px 16px; background-color: white;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+    #header .topWrap{display: none;}
+    #header .navWrap{display: none;}
+    .toggle{display: block;}
+    #header .logoWrap h1{
+        float: left;}
+    #header .logoWrap .toggle{float: right;}
+
+    /* visual */
+    .visualWrap{
+        background: #203b6a url(../images/visualbg01.png) no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .visualWrap .visual{height: 600px;padding: 16px; padding-top: 50px; position: relative;}
+    .visualWrap .visualText{
+        font-size: 79px; font-weight: bold; color: white;
+        line-height: 70px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+    .visualWrap .visualText p{display: none;}
+    .visualWrap .visual img{
+        position: absolute; bottom: 0; right: -55px;
+    }
+}
+@media screen and (min-width:700px){
+    /* header */
+    #header .topWrap{border-bottom: 1px solid #c4c4c4;}
+    #header .top{width: 980px;margin: 0 auto;}
+    #header .util li{float: left;}
+    #header .util li a{
+        display: block;padding: 0 10px; height: 26px;
+        font-size: 14px; line-height: 26px; position: relative;
+    }
+    #header .util li a::after{
+        content: ""; width: 1px;height: 10px;
+        background-color: slategrey; position: absolute; top: 10px; right: 0;
+    }
+    #header .util li:last-child a::after{content: ""; display: none;}
+    #header .util{float: right;}
+    #header .logoWrap{width: 980px; margin: 0 auto;}
+    #header .logoWrap>h1{width: 200px;margin: 0 auto;}
+    #header .logoWrap>h1>a{
+        display: block;
+        text-align: center;
+        line-height: 70px;
+    }
+    #header .navWrap{background-color: #1D5DA4;}
+    #header .navWrap>.gnb{width: 980px;margin: 0 auto;}
+    #header .navWrap>.gnb li{
+        float: left;
+        width: calc(980px / 6);
+        border-right: 1px solid #336DAC;
+    }
+    #header .navWrap>.gnb li:first-child{
+        border-left: 1px solid #336DAC;
+    }
+    #header .navWrap>.gnb a{
+        display: block;
+        color: white;
+        text-align: center;
+        line-height: 45px;
+        font-weight: bold;
+    }
+    #header .navWrap>.gnb a:hover{background-color: steelblue;}
+
+    /* visual */
+    .visualWrap{}
+}
