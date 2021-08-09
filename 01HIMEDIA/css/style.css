@@ -95,8 +95,7 @@
 
     /* section */
     .section2nd{padding: 16px;}
-    .section2nd li{
-    }
+    .section2nd li{}
     .section2nd img{}
 }
 
@@ -234,4 +233,9 @@
     }
     .content img{display: block;}
     .content p{font-size: 14px;}
+
+    /* section */
+    .section2nd{
+        
+    }
 }
