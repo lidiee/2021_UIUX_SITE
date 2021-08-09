@@ -96,7 +96,6 @@
     /* section */
     .section2nd{padding: 16px;}
     .section2nd li{
-        float: left;
     }
     .section2nd img{}
 }
