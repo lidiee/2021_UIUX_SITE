@@ -132,12 +132,12 @@
     .section2nd li{
         float: left;
         width: calc((100% - 10px) / 2);
-        margin-right:10px;
+        margin-right:10px; margin-bottom: 16px;
         border: 1px solid #dddddd;
         border-radius: 5px;
         position: relative;
     }
-    .section2nd li:nth-child(2){margin-right: 0;}
+    .section2nd li:nth-child(2n){margin-right: 0;}
     .section2nd img{
         position: absolute;
         right: 0px; height: 100%;
@@ -299,7 +299,8 @@
         position: relative;
         overflow: hidden;
     }
-    .section2nd li:last-child{margin-right: 0;}
+    .section2nd li:nth-child(3){margin-right: 0;}
+    .section2nd li:last-child{display: none;}
     .section2nd .text{width: 150px;}
     .section2nd h3{
         font-size: 18px;margin-bottom: 13px;
