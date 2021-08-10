@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="bxslider/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="bxslider/css/reset.css">
+    <script src="bxslider/js/jquery-3.1.1.min.js"></script>
+    <script src="bxslider/js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto:true,
+                pager:false,
+            })
+        })
+    </script>
+    <style>
+        .sliderWrap li img{
+            width: 100%;margin: 0 auto;
+        }
+        .bx-wrapper{
+            -moz-box-shadow: 0 none;
+            -webkit-box-shadow: 0 none;
+            box-shadow: 0 none;
+            border: 0 none;
+            margin-bottom: 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- slider -->
+    <div class="sliderWrap">
+        <ul class="slider">
+            <li><img src="images/banner01.jpg" alt="s1"></li>
+            <li><img src="images/banner02.jpg" alt="s2"></li>
+            <li><img src="images/banner03.jpg" alt="s3"></li>
+            <li><img src="images/banner04.jpg" alt="s4"></li>
+            <li><img src="images/banner05.jpg" alt="s5"></li>
+        </ul>
+    </div>
+    <div class="mt1">
+        <h1></h1>
+    </div>
+</body>
+</html>
