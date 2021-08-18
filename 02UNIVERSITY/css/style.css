@@ -16,7 +16,7 @@ body{
     font-size: 12px;
     color: white;
 }
-.tabmenu>ul>li{float: left;}
+.tabmenu>ul>li{float: left; margin: 0 2px;}
 .tabmenu>ul>li>a{
     display: block;
     text-align: center;
