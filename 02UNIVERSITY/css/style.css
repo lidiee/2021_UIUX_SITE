@@ -1,0 +1,43 @@
+@charset "utf-8";
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header */
+.topWrap{background-color: #0044AF;}
+.top{width: 1200px;margin: 0 auto;}
+.util{float: right;}
+.util>ul>li{float: left;}
+.util>ul>li>a{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 11px;
+    font-size: 12px;
+    color: white;
+}
+.tabmenu>ul>li{float: left;}
+.tabmenu>ul>li>a{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 37px;
+    color: white;
+    background-color: #00163B;
+}
+.tabmenu>ul>li>a:hover{color: #515151; background-color: white;}
+
+.logo{width: 1200px; margin: 0 auto;}
+.logoimg{float: left;}
+.menu{float: right;}
+.menu>ul>li{float: left;}
+.menu>ul>li>a{
+    display: block;text-align: center;
+    line-height: 150px;
+    padding: 0 39px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.menu>ul>li>a:last-child{padding-right: 0;}
+
+
