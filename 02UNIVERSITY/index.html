@@ -7,9 +7,23 @@
     <title>한국대학교</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".slider1").bxSlider({
+                pager:false,
+                controls:false
+            });
+            $(".slider2").bxSlider({
+                pager:true,
+                controls:false
+            });
+        })
+    </script>
 </head>
 <body>
     <header id="header">
@@ -18,6 +32,9 @@
                 <nav class="util">
                     <ul class="clearfix">
                         <li><a href="#">글자크기</a></li>
+                        <li class="size clearfix">
+                            <a href="#">+</a><a href="#">-</a>
+                        </li>
                         <li><a href="#">찾아오시는 길</a></li>
                         <li><a href="#">ENGLISH</a></li>
                         <li><a href="#">사이트맵</a></li>
@@ -50,4 +67,81 @@
                 </nav>
             </div>
     </header>
+
+    <div class="contents">
+        <section class="title">
+            <h1>함께 나누며 세상을 이끌어<p>세계로 향하는 한국대학교</p></h1>
+        </section>
+        <div class="container">
+            <ul class="clearfix">
+                <li>
+                    <ul class="slider1">
+                        <li><img src="images/slide01.png" alt="slide01"></li>
+                        <li><img src="images/slide02.png" alt="slide02"></li>
+                        <li><img src="images/slide03.png" alt="slide03"></li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="images/배경03_02.png" alt="library">
+                    <ul>
+                        <li>APP으로<p>스마트 도서관</p><p>바로 이용하자!</p></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="link">
+                        <h3>HOT LINK</h3>
+                        <ul>
+                            <li><a href="#"><img src="" alt=""></a></li>
+                            <li><a href="#">.</a></li>
+                            <li><a href="#">.</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="notice">
+                        <h3>공지사항</h3>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="news">
+                        <h3>SNS NEWS</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/학교02_01.png" alt="campus">
+                </li>
+                <li>
+                    <img src="images/학교03_02.png" alt="school">
+                </li>
+                <li>
+                    <ul class="slider2">
+                        <li><img src="images/banner01_01.png" alt="banner01"></li>
+                        <li><img src="images/banner01_02.png" alt="banner02"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer id="footerWrap">
+        <div class="footer clearfix">
+            <img src="images/LOGO.png" alt="ft_logo">
+            <ul class="clearfix">
+                <li><a href="#">한국대학교</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">저작권 정책</a></li>
+                <li><a href="#">개인 정보 취급 방침</a></li>
+                <li><a href="#">이용 정책</a></li>
+                <li><a href="#">이메일 무단 수집 거부</a></li>
+            </ul>
+            <address class="footerend">
+                <p>대표자 : 김한국 ｜ 서울특별시 구로구 구로로 300(구로동 6가)</p>
+                <p>개인 정보 관리 책임자 : 김한국</p>
+                <p>교내 전화번호 : 02-123-4567 ｜ FAX:02-123-4567 ｜ HANGUKUNIVERSITY@HANGUK.COM</p>
+                <p>COPYRIGHTⓒHANGUK.ALL RIGHTS RESERVED.</p>
+            </address>
+        </div>
+    </footer>
 </html>
