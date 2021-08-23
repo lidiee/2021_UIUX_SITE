@@ -93,7 +93,6 @@ body{
 .container .notice li span{float: right;}
 .container .notice img{position: absolute; right: 0;top: 10px;}
 
-
 .container .news{position: relative;padding: 20px;font-size: 13px;}
 .container .news h2{color: #00163B;margin-bottom: 17px; font-size: 24px;}
 .container .news img{float: left; margin-right: 15px;}
@@ -102,6 +101,13 @@ body{
     width: 132px; height: 40px;
 }
 
+.container .campus{position: relative;}
+.container .campus h3{
+    width: 300px; height: 52px;text-align: center;
+    font-size: 19px;line-height: 52px;
+    position: absolute;bottom: 0;
+    background: rgba(0, 0, 0, 0.7); color: white;
+}
 
 #footer{min-width: 1200px;}
 .footer{width: 1200px;margin: 0 auto;}
