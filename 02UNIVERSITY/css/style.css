@@ -82,6 +82,26 @@ body{
 .container>ul>li:nth-child(7){width: 25%;height: 225px;}
 .container>ul>li:nth-child(8){width: 75%;height: 225px;}
 
+.container .link{position: relative;padding: 20px;}
+.container .link h2{color: white; font-size: 24px;}
+.container .link ul{float: left;}
+
+.container .notice{position: relative;padding: 20px;}
+.container .notice h2{color: white; font-size: 24px;margin-bottom: 17px;}
+.container .notice li{font-size: 15px;}
+.container .notice li a{color: white;}
+.container .notice li span{float: right;}
+.container .notice img{position: absolute; right: 0;top: 10px;}
+
+
+.container .news{position: relative;padding: 20px;font-size: 13px;}
+.container .news h2{color: #00163B;margin-bottom: 17px; font-size: 24px;}
+.container .news img{float: left; margin-right: 15px;}
+.container .news .snslink{
+    position: absolute;right: 0;bottom: -40px;
+    width: 132px; height: 40px;
+}
+
 #footer{min-width: 1200px;}
 .footer{width: 1200px;margin: 0 auto;}
 .footer .img{float: left;}
