@@ -131,7 +131,7 @@ body{
     content:""; display: block;margin: 18px 0;
     width: 260px;height: 2px;background-color: white;
 }
-.container .notice li{font-size: 15px;}
+.container .notice li{font-size: 15px;line-height: 25px;}
 .container .notice li a{color: white;}
 .container .notice li span{float: right;}
 .container .notice img{position: absolute; right: 0;top: 10px;}
