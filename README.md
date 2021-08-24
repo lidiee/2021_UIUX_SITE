@@ -1,3 +1,3 @@
 # 2021_UIUX_SITE
 1. HIMEDIA SITE https://lidiee.github.io/2021_UIUX_SITE/01HIMEDIA
-1. HANGUNUNIV https://lidiee.github.io/2021_UIUX_SITE/02UNIVERSITY
+1. HANGUkUNIV https://lidiee.github.io/2021_UIUX_SITE/02UNIVERSITY
