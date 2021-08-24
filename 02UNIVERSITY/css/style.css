@@ -118,6 +118,7 @@ body{
 }
 
 
+
 .container .link{position: relative;padding: 20px; color: white;}
 .container .link li{
     float: left;text-align: center; padding-top: 27px;
@@ -169,7 +170,11 @@ body{
 .footer{width: 1200px;margin: 0 auto;}
 .footer .img{float: left;}
 
-.footer>ul{float: left; width: 560px;}
-.footer>ul>li{float: left;}
+.footer>ul{
+    float: left; color: #444444;
+}
+.footer>ul>li{
+    float: left;
+}
 .footerend{float: right;}
 .footerend p{float: left;}
