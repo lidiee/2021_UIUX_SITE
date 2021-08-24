@@ -127,6 +127,10 @@ body{
 
 .container .notice{position: relative;padding: 20px;}
 .container .notice h2{color: white; font-size: 24px;margin-bottom: 17px;}
+.container .notice h2:after{
+    content:""; display: block;margin: 18px 0;
+    width: 260px;height: 2px;background-color: white;
+}
 .container .notice li{font-size: 15px;}
 .container .notice li a{color: white;}
 .container .notice li span{float: right;}
