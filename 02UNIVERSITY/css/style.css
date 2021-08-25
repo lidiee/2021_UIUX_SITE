@@ -117,7 +117,22 @@ body{
     color: white; background-color: #192D4E;
 }
 
-
+.container .library{
+    background-image: url(../images/b03_02.png);
+    color: white;
+    padding: 77px 38px;
+}
+.container .library h2{font-size: 32px; margin-bottom: 15px;}
+.container .library h3{
+    font-size: 17px; letter-spacing: 2.5%; font-weight: normal;
+    margin-bottom: 35px;
+}
+.container .library .btn2{
+    width: 170px;height: 40px;line-height: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #fff;
+}
 
 .container .link{position: relative;padding: 20px; color: white;}
 .container .link li{
