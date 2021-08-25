@@ -130,6 +130,7 @@ body{
 .container .library .btn2{
     width: 170px;height: 40px;line-height: 40px;
     text-align: center;
+    color: white;
     background-color: rgba(0,0,0,0.5);
     border: 1px solid #fff;
 }
