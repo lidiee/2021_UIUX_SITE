@@ -221,7 +221,7 @@ body{
     float: left;
     height: 60px;line-height: 60px;
     background: white;
-    padding: 0 36px;
+    padding: 0 37px;
     font-weight: bold;
 }
 .container2 li:nth-child(1){
@@ -237,7 +237,7 @@ body{
     position: absolute;
     width: 2px;height: 60px; background-color: #6b6b6b;
     position: absolute;
-    top: 20px;left: 299px;
+    top: 20px;left: 300px;
 }
 
 /* footer */
