@@ -4,6 +4,11 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 
 /* header */
-#header{
-    
-}
+#header
+.hdtopwrap{}
+.headertop{}
+h1{}
+.search{}
+.sns{}
+
+.hdbtm li{}
