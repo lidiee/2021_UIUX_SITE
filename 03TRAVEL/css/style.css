@@ -4,7 +4,7 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 
 
 /* header */
-#header
+#header{min-width: 980px;}
 .hdwrap{
     background: #0d72a8 url(../images/aeroplane.jpg) no-repeat center;
     height: 90px;
@@ -15,12 +15,38 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 }
 h1{width: 100px;}
 .search{
+    position: relative;
     width: 100px;height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sns{
+.searchinp{
+    width: 290px;height: 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-indent: 75px;
+    border: 0;
+}
+.searchtitle{
+    position: absolute;
+    left: -85px;
+    background: url(../images/searchtext.jpg);
+    width: 60px;height: 20px;
+    text-indent: -9999px;
+    top: 35px;
+}
+.searchbutton{
+    position: absolute;
+    left: 165px;
+    background: url(../images/search.jpg) center no-repeat;
+    width: 30px;height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 50%; text-indent: -9999px;
+    cursor: pointer;
+}
+input[type="text"]:focus{outline:none;}
+.contact{
     width: 300px;height: 90px;
     display: flex;
     justify-content: center;
