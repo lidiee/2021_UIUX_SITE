@@ -32,17 +32,18 @@ h1{width: 100px;}
     position: relative;
 }
 .hdbtm ul{width: 980px;height: 60px;margin: 0 auto;}
-.hdbtm li a{
+.hdbtm li{
     float: left; width: 162px;
     color: #152630;
     font-size: 16px; line-height: 60px; text-align: center;
+    border-right: 1px solid #c4c4c4;
 
 }
-.hdbtm li a::after{
-    content: ""; display: block;
-    width: 1px;height: 60px;
-    background-color: #c4c4c4;
-    position: absolute;
-    top: 0;
+.hdbtm li:first-child{
+    border-left: 1px solid #c4c4c4;
 }
-.hdbtm li a:hover,.hdbtm li a:active{color: #085DA0;}
+.hdbtm li a:hover,.hdbtm li a:active{
+    display: block;
+    color: #085DA0;
+    background-color: #ddd;
+}
