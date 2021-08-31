@@ -8,8 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+
+            });
+        })
+    </script>
 </head>
 <body>
     <header id="header">
@@ -23,7 +33,14 @@
                         <input type="submit" value="Search" class="searchbutton">
                     </form>
                 </div>
-                <div class="contact">sns</div>
+                <div class="contact">
+                    <ul class="clearfix">
+                        <li class="number">+82 02 1234 5678</li>
+                        <li class="snsimg">
+                            <a href="#"><img src="images/sns.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="hdbtm">
                 <ul class="clearfix">
@@ -37,5 +54,8 @@
             </div>
         </div>
     </header>
+
+
+
 </body>
 </html>

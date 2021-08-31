@@ -47,10 +47,28 @@ h1{width: 100px;}
 }
 input[type="text"]:focus{outline:none;}
 .contact{
-    width: 300px;height: 90px;
+    position: relative;
+    width: 400px;height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+.contact ul{float: right;}
+.contact li{
+    float: left;
+}
+.contact .number{
+    position: absolute;
+    font-size: 26px;
+    top: 50%; margin-top: -20px;
+    right: 130px;
+    font-weight: bold;
+}
+.contact .snsimg img{
+    position: absolute;
+    width: 113px; height: 30px;
+    right: 5px;top: 50%;margin-top: -15px;
 }
 
 .hdbtm{
@@ -63,7 +81,7 @@ input[type="text"]:focus{outline:none;}
     color: #152630;
     font-size: 16px; line-height: 60px; text-align: center;
     border-right: 1px solid #c4c4c4;
-
+    
 }
 .hdbtm li:first-child{
     border-left: 1px solid #c4c4c4;
