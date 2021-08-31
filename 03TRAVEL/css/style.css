@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+
+/* header */
+#header{min-width: 980px;}
+.hdwrap{
+    background: #0d72a8 url(../images/aeroplane.jpg) no-repeat center;
+    height: 90px;
+}
+.headertop{
+    width: 980px; margin: 0 auto;
+    display: flex;justify-content: space-between; align-items: center;
+}
+h1{width: 100px;}
+.search{
+    position: relative;
+    width: 100px;height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchinp{
+    width: 290px;height: 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-indent: 75px;
+    border: 0;
+}
+.searchtitle{
+    position: absolute;
+    left: -85px;
+    background: url(../images/searchtext.jpg);
+    width: 60px;height: 20px;
+    text-indent: -9999px;
+    top: 35px;
+}
+.searchbutton{
+    position: absolute;
+    left: 165px;
+    background: url(../images/search.jpg) center no-repeat;
+    width: 30px;height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 50%; text-indent: -9999px;
+    cursor: pointer;
+}
+input[type="text"]:focus{outline:none;}
+.contact{
+    position: relative;
+    width: 400px;height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact ul{float: right;}
+.contact li{
+    float: left;
+}
+.contact .number{
+    position: absolute;
+    font-size: 26px;
+    top: 50%; margin-top: -20px;
+    right: 130px;
+    font-weight: bold;
+}
+.contact .snsimg img{
+    position: absolute;
+    width: 113px; height: 30px;
+    right: 5px;top: 50%;margin-top: -15px;
+}
+
+.hdbtm{
+    background-color: #F7F7F7;border-bottom: 5px solid #0E73A7;
+    position: relative;
+}
+.hdbtm ul{width: 980px;height: 60px;margin: 0 auto;}
+.hdbtm li{
+    float: left; width: 162px;
+    color: #152630;
+    font-size: 16px; line-height: 60px; text-align: center;
+    border-right: 1px solid #c4c4c4;
+    
+}
+.hdbtm li:first-child{
+    border-left: 1px solid #c4c4c4;
+}
+.hdbtm li a:hover,.hdbtm li a:active{
+    display: block;
+    color: #085DA0;
+    background-color: #ddd;
+}
