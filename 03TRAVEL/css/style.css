@@ -167,7 +167,6 @@ footer{
 footer li a{
     float: left;
     margin:25px;
-    font-weight: bold;
     color: #3F3F3F;
 }
 footer li a:first-child{margin-left: 0;}
