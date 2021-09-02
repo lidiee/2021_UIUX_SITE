@@ -164,9 +164,13 @@ body.sub{background:#ececec}
 footer{
     width: 980px;margin: 0 auto;
 }
-footer li{
+footer li a{
     float: left;
     margin:25px;
     font-weight: bold;
+    color: #3F3F3F;
 }
-footer li:first-child{margin-left: 0;}
+footer li a:first-child{margin-left: 0;}
+
+footer address{color: #707070;font-size: 13px;}
+footer p{color: #707070;font-size: 13px;}
