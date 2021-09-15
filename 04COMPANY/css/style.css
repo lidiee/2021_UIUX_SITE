@@ -248,8 +248,8 @@ body{
         letter-spacing: 2px;
     }
     #header_top .gnb li{margin-bottom: 15px;}
-    .toggle{display: block;z-index: 2;}
-    .toggle{width: 40px;height: 40px;_background: black;position: relative;}
+    .toggle{display: block;}
+    .toggle{width: 40px;height: 40px;_background: black;position: relative;z-index: 2;}
     .toggle div{
         position: absolute;width: 25px;height: 3px;
         background: #0F346C;
