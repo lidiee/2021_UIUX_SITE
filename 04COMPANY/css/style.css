@@ -39,7 +39,6 @@ body{
 .slider_wrap .nextbtn{right: 30px;}
 .slider_wrap .prevbtn{left: 30px;}
 
-.content{background: white;}
 .content>ul>li{float: left; width: 25%;height: 310px;}
 .content>ul>li:nth-child(2n){background-color: slategrey;}
 .content>ul>li:nth-child(2n-1){background-color: lightgrey;}
@@ -229,7 +228,6 @@ body{
 
 
 @media screen and (max-width:699px){
-    #main_header{background: #ddd;}
     #header_top{
         background: white; padding: 0 16px;
         position: fixed;width: 100%;
@@ -248,6 +246,7 @@ body{
         letter-spacing: 2px;
     }
     #header_top .gnb li{margin-bottom: 15px;}
+    
     .toggle{display: block;}
     .toggle{width: 40px;height: 40px;_background: black;position: relative;z-index: 2;}
     .toggle div{
