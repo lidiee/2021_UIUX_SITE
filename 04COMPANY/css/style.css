@@ -26,10 +26,6 @@ body{
     position: absolute;left: 50%;top: 35%;
     transform: translate(-50%,-50%);text-align: center;width: 630px;
 }
-.slidetext h3{
-    font-size: 53px; font-weight: 800; color: white;
-    margin-bottom: 38px;
-}
 
 .slider_wrap .nextbtn,
 .slider_wrap .prevbtn{
@@ -86,6 +82,11 @@ body{
     .slider_wrap .li_2nd{
         background-image: url(../images/mi2.png);
     }
+    .slidetext h3{
+        font-size: 53px; font-weight: 800; color: white;
+        margin-bottom: 38px;
+    }
+
     .slider_wrap .button a{
         width: 205px;height: 54px;
         background: #F26226; color: white;
@@ -246,7 +247,7 @@ body{
         letter-spacing: 2px;
     }
     #header_top .gnb li{margin-bottom: 15px;}
-    
+
     .toggle{display: block;}
     .toggle{width: 40px;height: 40px;_background: black;position: relative;z-index: 2;}
     .toggle div{
@@ -280,7 +281,7 @@ body{
         background: #AACCFF;
     }
     .bx-wrapper .bx-pager{
-        bottom: 50px;
+        bottom: 80px;
     }
 
     .slider_wrap .li_1st,.slider_wrap .li_2nd{
@@ -310,6 +311,10 @@ body{
         background-image: url(../images/mosli1.png);
     }
     .slidetext{width: 300px; top: 50%;}
+    .slidetext h3{
+        font-size: 45px; font-weight: 800; color: white;
+        margin-bottom: 50px;
+    }
 
     .content{width: 100%;margin: 0 auto;}
     .content>ul>li{width: 50%;}
