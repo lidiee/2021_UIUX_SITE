@@ -87,7 +87,7 @@ body{
         margin-bottom: 38px;
     }
 
-    .slider_wrap .button a{
+    .slider_wrap .button{
         width: 205px;height: 54px;
         background: #F26226; color: white;
         line-height: 54px;
@@ -150,23 +150,32 @@ body{
 
     .explore{position: relative;}
     .explore img{position: absolute;right: 0;}
-    .explore .explore_text{
+    .explore .left{
         color: #0F346C;
         font-weight: bold;
         position: absolute;
         top: 30px;left: 30px;
         letter-spacing: 0.065em;
     }
-    .explore .explore_text a{color: #0F346C;}
-    .explore .explore_text h2{
+    .explore .left a{color: #0F346C;}
+    .explore .left h2{
         font-size: 24px; margin-bottom: 50px;
     }
-    .explore .explore_text h3{
+    .explore .left h3{
         width: 190px;height: 100px;
         font-size: 17px;
     }
-    .explore .explore_text h3 p{font-size: 15px;margin-top: 10px;}
-    
+    .explore .left h3 p{font-size: 15px;margin-top: 10px;}
+    .explore .left:after{
+        content: "";display: block;
+        border-width: 30px;
+        border-color: transparent transparent transparent white;
+        border-style: solid;
+        width: 60px;
+        box-sizing: border-box;
+        position: absolute;right: -95px;
+        top: 50%;
+    }
     .explore .time{
         color: #0F346C;
         position: absolute;
@@ -211,15 +220,183 @@ body{
 
 
     .content2{
-        height: 720px;
-        background-image: url(../images/ct2bg_1.png);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(../images/ct2bg.png) no-repeat fixed;
         background-size: cover;
-        margin-top: 80px;
-
+        padding: 100px 0;
+        margin: 80px 0;
+        text-align: center;
+    }
+    .content2 .section{
+        width: 1260px;
+        margin: 0 auto;
+        color: white;
+    }
+    .content2 .section h2{
+        font-size: 34px;
+        line-height: 43px;
+        letter-spacing: 0.165em;
+    }
+    .content2 .section h2:before{
+        width: 100px;height: 2px;
+        content: ""; display: block;
+        background: white;
+        margin: 30px auto;
+    }
+    .content2 li{
+        float: left;
+        width: 25%;
+        padding: 5px;
+        margin-top: 70px;
+        transition: 300ms;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .content2 img{margin: 0 auto;}
+    .content2 .card_text {padding: 15px;}
+    .content2 .card_text h3{
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+    .content2 .card_text p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .content2 li:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        transform: translate(-10px,-10px);
     }
 
+
+
+    .content3{
+        width: 1260px; margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .content3 li{
+        float: left;
+        height: 620px;width: 25%;
+    }
+    .content3 .fb{
+        position: relative;
+        background: #002684;
+        color: white;
+        padding: 85px 0;
+    }
+    .content3 .fb img{
+        margin: 0 auto;
+    }
+    .content3 h2{
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 150px;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: -0.03em;
+    }
+    .content3 .more{
+        position: absolute;
+        bottom: 60px;
+        text-align: center;
+        width: 200px;
+        font-size: 16px;
+        left: 50%; transform: translate(-50%);
+    }
+    .content3 .more .button2{
+        background: white;
+        color: #002684;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 40px;
+        width: 150px;height: 40px;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .content3 .more .button2:hover{
+        background: #4189F3;
+        color: white;
+    }
+    .content3 .blog_content{
+        width: 316px;height: 310px;
+        padding: 30px;
+    }
+    .content3 .blog_content h3{
+        color: #828282;
+        letter-spacing: 0.045em;
+    }
+    .content3 .blog_content p{
+        margin: 40px 0;
+        color: #828282;
+        font-size: 15px;
+    }
+    .content3 .sns{width: 186px;height: 28px;}
+
+    .content3 .fw{
+        position: relative;
+    }
+
+    .content3 .gcs{
+        position: relative;
+    }
+    .content3 .fw::after,
+    .content3 .gcs:after{
+        content: "";display: block;
+        border-width: 30px;
+        border-color: transparent transparent white transparent;
+        border-style: solid;
+        width: 60px;
+        box-sizing: border-box;
+        position: absolute; top: 251px;
+        left: 50%;transform: translate(-50%);
+    }
+    .content3 .gcs p{
+        margin-top: 20px;
+    }
+    .content3 .fzb{
+        position: relative;
+    }
+    .content3 .fzb:after{
+        content: "";display: block;
+        border-width: 30px;
+        border-color: white transparent transparent transparent;
+        border-style: solid;
+        width: 60px;
+        box-sizing: border-box;
+        position: absolute;top: 50%;
+        left: 50%;transform: translate(-50%);
+    }
+
+
+
+    .content4{
+        margin: 0 auto;
+        margin: 80px;
+        text-align: center;
+    }
+    .content4 img{margin: 0 auto;}
+    .content4 .text{line-height: 30px;}
+    .content4 h3{
+        color: #474547;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content4 p{
+        color: #898B92;
+        font-size: 16px;
+    }
+    .content4 .button3{
+        width: 325px;height: 60px;
+        background-color: #2E62AF;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 30px;
+        color: white;
+        line-height: 60px;
+        letter-spacing: 0.08em;
+    }
+    .content4 .button3:hover{
+        background:#002684
+    }
 }/* pc */
 
 
@@ -305,8 +482,7 @@ body{
         background: #2E62AF;
         border-radius: 30px;
     }
-    .slider_wrap .li_1st .button a,
-    .slider_wrap .li_2nd .button a{color: white;display: block;}
+    .slider_wrap .button{color: white;display: block;}
     .slider_wrap .li_2nd{
         background-image: url(../images/mosli1.png);
     }
@@ -344,4 +520,5 @@ body{
     .cym img{height: 236px;}
     .uyb img{height: 236px;}
     .cce img{height: 236px;}
+
 }/* mobile */

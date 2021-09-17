@@ -3,12 +3,13 @@ console.log("hi :-)")
 
 $(document).ready(function(){
     const slider1 = $(".slider").bxSlider({
-        controls:false
+        controls:false,
+        auto:true
     });
-    $(".nextBtn").click(function(){
+    $(".nextbtn").click(function(){
         slider1.goToNextSlide();
     });
-    $(".prevBtn").click(function(){
+    $(".prevbtn").click(function(){
         slider1.goToPrevSlide();
     });
 
