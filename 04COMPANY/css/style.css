@@ -579,7 +579,7 @@ body{
         color: white;
     }
     .content2 h2{
-        font-size: 17px;text-align: center;
+        font-size: 19px;text-align: center;
         letter-spacing: 0.165em;
         padding: 10px;
         margin-bottom: 45px;
@@ -596,7 +596,7 @@ body{
     }
     .content2 li h3{
         font-weight: normal;
-        font-size: 19px;
+        font-size: 18px;
         line-height: 24px;
         text-align: center;
         letter-spacing: -0.03em;
@@ -632,5 +632,42 @@ body{
         text-align: center;
         line-height: 35px;
         margin: 15px auto;
+        margin-bottom: 35px;
     }
+
+    #footerwrap{background: #FAFBFC;position: relative;}
+    .footer .logo{display: none;}
+    .footer1{float: right;text-align: right;padding-top: 68px;}
+    .footer1 li a{
+        color: #C4C4C4;
+        font-size: 13px;
+    }
+    .footer1 li:first-child a{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        color: #5F5E60;
+        font-size: 9px;
+        padding: 20px;
+    }
+    .footer2{padding: 30px 0;}
+    .footer2 h4{
+        color: #555456;
+        font-size: 13px;
+        letter-spacing: -0.015em;
+    }
+    .footer2 li a{
+        color: #C4C4C4;
+        font-size: 13px;
+        letter-spacing: -0.015em;
+        line-height: 16px;
+    }
+    .footer2 p{
+        font-size: 9px;
+        margin: 20px 0;
+        text-align: center;
+        color: #5F5E60;
+    }
+    .footer2 p a{color: #30355C;}
 }/* mobile */
