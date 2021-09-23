@@ -529,6 +529,7 @@ body{
         text-align: center;
         background: #2E62AF;
         border-radius: 30px;
+        letter-spacing: 0.08em;
     }
     .slider_wrap .button{color: white;display: block;}
     .slider_wrap .li_2nd{
@@ -569,4 +570,67 @@ body{
     .uyb img{height: 236px;}
     .cce img{height: 236px;}
 
+    .content2{
+        margin: 55px 0;
+        height: 480px;
+        background: url(../images/ct2_m.png) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+    .content2 h2{
+        font-size: 17px;text-align: center;
+        letter-spacing: 0.165em;
+        padding: 10px;
+        margin-bottom: 45px;
+    }
+    .content2 li{
+        width: 50%;
+        float: left;
+        height: 170px;
+        
+    }
+    .content2 li img{
+        transform: scale(50%);
+        margin: 0 auto;
+    }
+    .content2 li h3{
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.03em;
+    }
+    .content2 .card_text p{display: none;}
+
+    .content3{display: none;}
+
+    .content4 img{
+        margin: 0 auto;
+    }
+    .content4 h3{
+        color: #474547;
+        font-style: 16px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .content4 p{
+        color: #898B92;
+        font-style: 16px;
+        letter-spacing: 0.016em;
+        text-align: center;
+    }
+    .content4 .button3{
+        background: #2E62AF;
+        color: white;
+        width: 200px; height: 35px;
+        border-radius: 30px;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 0.08em;
+        text-align: center;
+        line-height: 35px;
+        margin: 15px auto;
+    }
 }/* mobile */
