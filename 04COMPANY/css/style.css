@@ -641,6 +641,7 @@ body{
     .footer1 li a{
         color: #C4C4C4;
         font-size: 13px;
+        line-height: 30px;
     }
     .footer1 li:first-child a{
         position: absolute;
@@ -649,7 +650,7 @@ body{
         transform: translate(-50%);
         color: #5F5E60;
         font-size: 9px;
-        padding: 20px;
+        padding: 10px;
     }
     .footer2{padding: 30px 0;}
     .footer2 h4{
@@ -661,7 +662,7 @@ body{
         color: #C4C4C4;
         font-size: 13px;
         letter-spacing: -0.015em;
-        line-height: 16px;
+        line-height: 30px;
     }
     .footer2 p{
         font-size: 9px;
