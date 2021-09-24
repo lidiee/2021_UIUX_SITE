@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        body{height: 400vh; background: #210002;}
+        .header{height: 100vh;position: relative; overflow: hidden;}
+        .layer{
+            width: 100vw;height: 100vh;
+            position: absolute;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            /* background-size: auto 1038px; */
+        }
+        .p0{background-image: url(images/parallax0.png);}
+        .p1{background-image: url(images/parallax1.png);}
+        .p2{background-image: url(images/parallax2.png);}
+        .p3{background-image: url(images/parallax3.png);}
+        .p4{background-image: url(images/parallax4.png);}
+        .p5{background-image: url(images/parallax5.png);}
+        .p6{background-image: url(images/parallax6.png);}
+        .p7{background-image: url(images/parallax7.png);}
+        .p8{background-image: url(images/parallax8.png);}
+
+        .container{width: 1200px;margin: 0 auto; background: white;}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="layer p0" data-speed="4"></div>
+        <div class="layer p1" data-speed="5"></div>
+        <div class="layer p2" data-speed="4"></div>
+        <div class="layer p3" data-speed="7"></div>
+        <div class="layer p4" data-speed="8"></div>
+        <div class="layer p5" data-speed="20"></div>
+        <div class="layer p6" data-speed="30"></div>
+        <div class="layer p7" data-speed="40"></div>
+        <div class="layer p8" data-speed="60"></div>
+    </div>
+
+    <div class="container">
+        11
+    </div>
+
+    <script>
+
+        let layer = document.querySelectorAll(".layer")
+
+        window.addEventListener("scroll",function(){
+            let scroll = window.pageYOffset;
+            // console.log(scroll);
+
+            layer.forEach(function(item,index){
+                let speed = item.dataset.speed;
+                item.style.transform = `translate3d(0,${scroll/speed*4}px,0)`
+            })
+        })
+    </script>
+</body>
+</html>
