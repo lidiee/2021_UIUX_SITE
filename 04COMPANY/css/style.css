@@ -501,6 +501,7 @@ body{
     line-height: 70px;
     font-size: 23px;
     font-weight: bold;
+    cursor: pointer;
 }
 .tab li.on{
     background-color: white;
@@ -515,13 +516,13 @@ body{
 }
 .nav_v span{color: #0F346C;}
 
-.vision .ov{
+.our{
     color: #0F346C;
     font-size: 44px;
     text-align: center;
     margin-bottom: 75px;
 }
-.vision .ov::before{
+.our::before{
     content: ""; display: block;
     width: 80px;height: 3px;
     background-color: #0F346C;
@@ -548,6 +549,7 @@ body{
     text-align: center;
 }
 
+
 .ts p{
     margin: 0 auto;
     width: 785px;
@@ -569,21 +571,35 @@ body{
     left: 50%;transform: translate(-50%);
 }
 
-/* .ts ul{width: 900px; margin: 0 auto;}
-.ts li{
-    float: left; width: 300px;
-    position: relative;margin-top: 20px;
+.scp{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
 }
-.ts li h3{
-    width: 220px; text-align: center;
-    color: #0F346C;
+.scp li{
+    float: left; width: 300px;
+    margin-top: 20px;
+}
+.scp h3{
+    text-align: center;
     font-size: 18px;
-    font-weight: bold;
-    margin: 20px;
-    position: absolute;
-    left: 15px;
+    color: #0F346C;
+    margin-top: 20px;
+    margin-bottom: 55px;
     font-weight: normal;
-} */
+}
+.scp a{
+    font-size: 18px;
+    color: #0F346C;
+}
+.scp h4{
+    color: #929292;
+    font-weight: normal;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
 
 .join h3{
     font-size: 44px;
@@ -618,6 +634,10 @@ body{
     margin: 0 auto;
     margin-bottom: 40px;
 }
+
+.ot img{margin: 0 auto;}
+
+
 
 
 @media screen and (max-width:699px){

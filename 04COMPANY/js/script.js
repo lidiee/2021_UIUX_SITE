@@ -2,6 +2,11 @@ console.log("hi :-)")
 
 
 $(document).ready(function(){
+
+    $(".modal").colorbox({
+        rel:".modal"
+    })
+
     const slider1 = $(".slider").bxSlider({
         controls:false,
         auto:true
@@ -33,4 +38,14 @@ $(document).ready(function(){
         $(".gnb").removeClass("view");
     });
 
+    $("ul>li").click(function(){
+
+        let num = $(this).index();
+        $("ul>li").removeClass();
+        $(this).addClass("on")
+        
+        $(".ts>div").hide();
+        $(".ts>div").eq(num).fadeIn()
+
+    })
 });
