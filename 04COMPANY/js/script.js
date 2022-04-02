@@ -3,10 +3,6 @@ console.log("hi :-)")
 
 $(document).ready(function(){
 
-    $(".modal").colorbox({
-        rel:".modal"
-    })
-
     const slider1 = $(".slider").bxSlider({
         controls:false,
         auto:true
@@ -38,14 +34,35 @@ $(document).ready(function(){
         $(".gnb").removeClass("view");
     });
 
-    $("ul>li").click(function(){
+
+    $(".tab>li").click(function(){
 
         let num = $(this).index();
-        $("ul>li").removeClass();
+        $(".tab>li").removeClass();
         $(this).addClass("on")
         
         $(".ts>div").hide();
-        $(".ts>div").eq(num).fadeIn()
+        $(".ts>div").eq(num).show()
 
+    })
+
+
+    $(window).scroll(function(){
+        let scrollY = $(window).scrollTop();
+        if(scrollY > 500){
+            $("#header_top").addClass("fixed")
+        }else{
+            $("#header_top").removeClass("fixed")
+        }
+        if(scrollY > 500){
+            $(".gnb a").addClass("fixed")
+        }else{
+            $(".gnb a").removeClass("fixed")
+        }
+        if(scrollY > 500){
+            $(".sign .in a").addClass("fixed")
+        }else{
+            $(".sign .in a").removeClass("fixed")
+        }
     })
 });

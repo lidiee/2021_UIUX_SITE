@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aēsop</title>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300;1,400&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Aēsop</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" data-menuanchor="home" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-menuanchor="read" href="#read">Read</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-menuanchor="service" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-menuanchor="store" href="#store">Store</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="fullpage">
+       <div class="section page1" data-anchor="home">
+           <video src="images/Aesop_Web_Homepage.m4v" autoplay muted data-autoplay loop id="video"></video>
+           <div class="container">
+               <h4 class="col-12 text-left text-white mb-5">For devotees of the metropolis</h4>
+               <h2 class="col-12 offset-md-1 text-left text-white">Introducing Parsley Seed Anti-Oxidant Intense Serum.</h2>
+               <p class="col-12 offset-md-1 text-left text-white">Potent fortification with a weightless texture <br class="col-md-12 offset-md-1 text-left text-white">: a barley - there film to guard against airborne particulates.</br></p>
+               <a href="#">
+                   <div class="button col-12 offset-md-1 text-left text-white mb-5">Discover the formulation<span>→</span></div>
+                </a>
+                <h4 class="col-md-3 offset-md-10 text-left text-white">From, Aēsop</h4>
+           </div>
+           <div class="scrollbtn">
+                <a href="#read"><img src="images/btn_scroll.png" alt=""></a>
+           </div>
+       </div>
+ 
+       <div class="section page2" data-anchor="read">
+            <div class="row">
+                <div class="col-md-5 offset-md-1">
+                    <h4 class="mb-5">The Athenaeum</h4>
+                    <h2>Aēsop On Vitamins</h2>
+                    <p>Among those we often return to in our formulations are a range of ingredients known to benefit the skin — vitamins C, B3, E and Provitamin B5.</p>
+                    <a href="#">
+                        <div class="button col-12">Discover Vitamins<span>→</span></div>
+                    </a>
+                </div>
+                <!-- <img src="images/Aesop_Skincare_Plus.png" alt="" class="img-fluid"> -->
+            </div>
+       </div>
+
+       <div class="section page3" data-anchor="service">
+           <div class="container view03">
+               <div class="row">
+                    <div class="col-md-6 offset-md-7 text-right">
+                        <h2 class="mb-5">For your convenience</h2>
+                        <p>For personalised advice, you are welcome to arrange a video consultation with a trained Aēsop consultant; or to use our live assistance for guidance while browsing online.</p>
+                        <a href="#">
+                            <div class="button col-12"><span>Discover our services</span>→</div>
+                        </a>
+                    </div>
+                    <!-- <img src="images/Aesop_Live_Assistance.png" alt="" class="img-fluid"> -->
+               </div>
+           </div>
+       </div>
+
+       <div class="section page4" data-anchor="store">
+            <div class="row">
+                <div class="col-md-5 col-lg-12 offset-md-1">
+                    <h2 class="mb-5">Store locator</h2>
+                    <p>Our consultants are available to host you in-store and provide tailored guidance on gift purchases.</p>
+                    <a href="#">
+                        <div class="button col-12">Find a nearby store<span>→</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="sliderwrap">
+                <div class="col-md-11">
+                    <ul class="slider">
+                        <li><img src="images/Aesop_Armadale_Hero.jpg" alt=""></li>
+                        <li><img src="images/Store_Detail_Claremont_Quarter_Hero.jpg" alt=""></li>
+                        <li><img src="images/Aesop_Brisbane_City.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+       
+       <div class="section page5 fp-auto-height">
+           <footer class="footer pt-5 mt-3">
+                <div class="container">
+                    <div class="row px-3 px-md-0">
+                        <div class="col-6 col-lg">
+                            <h4>Orders & Support</h4>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Track your order</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg">
+                            <h4>About</h4>
+                            <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Foundation</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Regulatory polices</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg">
+                            <h4>Acknowledgement of Country</h4>
+                            <p>Aēsop acknowledges the Traditional Owners and Custodians of the land on which we work. We pay respects to Elders past, present and emerging, and recognise their connection to the land. Sovereignty was never ceded.</p>
+                        </div>
+                        <div class="col-6 col-lg">
+                            <h4>Sustainability</h4>
+                            <p>All Aēsop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation.</p>
+                        </div>
+                    </div>
+                    <div class="fb">
+                        <div class="row py-5">
+                            <div class="col-md-6 mb-3">
+                                <ul class="nav justify-content-center justify-content-md-start">
+                                    <li class="nav-item"><a href="#home">ⓒAēsop</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="nav justify-content-center justify-content-md-end">
+                                    <li class="nav-item px-3"><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="nav-item px-3"><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="nav-item px-3"><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+       </div>
+    </div>
+</body>
+</html>

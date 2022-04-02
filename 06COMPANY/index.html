@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>COMPANY</title>
+    <style>
+        :root{
+            --primary-colour:#4455cc;
+            --primary-colour2:#854fee;
+            --bg-colour1:#efefef;
+            --gradient-colour:linear-gradient(90deg,#4455cc,#854fee);
+            --box-shadow:0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .headerwrap .nav-item{
+            font-size: 1.2em;
+            border-bottom: 4px solid transparent;
+            padding: 0 10px;
+            transition: 300ms;
+        }
+        .headerwrap .nav-item:hover{border-bottom: 4px solid var(--primary-colour2);}
+        .headerwrap.fixed-top{box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);transition: 300ms;}
+
+        .visualwrap{background: url(assets/slider-bg.svg) no-repeat center bottom;}
+
+        .content{background: var(--bg-colour1);}
+
+        .btn.button-primary{background: var(--gradient-colour);box-shadow: var(--box-shadow);}
+
+        .pf{background: var(--bg-colour1);}
+        .pf .row img{border-radius: 10px;}
+
+
+
+
+
+        @media screen and (max-width:576px){
+            .headerwrap .nav-item,
+            .headerwrap .nav-item:hover{
+                border-bottom: none;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="headerwrap bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICE</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COMMUNITY</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="visualwrap">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 align-self-center mb-5 md-mb-0">
+                    <h2 class="text-center text-md-left">Lorem ipsum dolor sit.</h2>
+                    <p class="text-center text-md-left">Lorem ipsum dolor sit amet.</p>
+                    <a href="#!" class="btn btn-primary d-block d-md-inline mb-2 mb-md-0">MORE</a>
+                    <a href="#!" class="btn btn-outline-primary d-block d-md-inline">E-mail</a>
+                </div>
+                <div class="col-md-6 col-lg-8">
+                    <img src="assets/slider.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container py-5 px-5 px-md-0 mb-5">
+            <div class="row">
+                <div class="col-md-6 order-md-1 order-2">
+                    <img src="assets/sobre.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 order-md-2 order-1 mb-5 mb-md-0 align-self-center">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati minima ab, magni voluptate fugiat sint ipsum! Quia, id neque!</p>
+                    <a href="#!" class="btn button-primary text-white d-block mb-5 mb-md-0 d-md-inline px-5">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .service .card{background: var(--bg-colour1); border: 0 none; transition: 300ms;}
+        .service .card:hover{box-shadow: var(--box-shadow); transform: scale(1.1);}
+        .service .card img{height: 200px;}
+    </style>
+
+    <div class="service">
+        <div class="container">
+            <h2 class="text-center mb-5">GALLERY</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-5 mb-lg-0">
+                    <div class="card">
+                        <img src="assets/destaque1.svg" alt="" class="img-fluid m-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Lorem, ipsum.</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, sit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-5 mb-lg-0">
+                    <div class="card">
+                        <img src="assets/destaque2.svg" alt="" class="img-fluid m-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Lorem, ipsum.</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, sit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-5 mb-lg-0">
+                    <div class="card">
+                        <img src="assets/destaque3.svg" alt="" class="img-fluid m-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Lorem, ipsum.</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, sit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-5 mb-md-5 mb-lg-0">
+                    <div class="card">
+                        <img src="assets/destaque4.svg" alt="" class="img-fluid m-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Lorem, ipsum.</h4>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, sit!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pf">
+        <div class="container">
+            <div class="btn-group">
+                <div class="button btn btn-primary active" data-filter="*">ALL</div>
+                <div class="button btn btn-primary" data-filter=".web">WEBSITE</div>
+                <div class="button btn btn-primary" data-filter=".il">ILLUSTRATION</div>
+                <div class="button btn btn-primary" data-filter=".ps">PHOTOSHOP</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3 element-item web mb-3">
+                <a href="assets/servicos/1.jpg" class="popup_link"><img src="assets/servicos/1.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item il mb-3">
+                <a href="assets/servicos/2.jpg" class="popup_link"><img src="assets/servicos/2.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item ps mb-3">
+                <a href="assets/servicos/3.jpg" class="popup_link"><img src="assets/servicos/3.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item il mb-3">
+                <a href="assets/servicos/4.jpg" class="popup_link"><img src="assets/servicos/4.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item web mb-3">
+                <a href="assets/servicos/5.jpg" class="popup_link"><img src="assets/servicos/5.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item web mb-3">
+                <a href="assets/servicos/6.jpg" class="popup_link"><img src="assets/servicos/6.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item ps mb-3">
+                <a href="assets/servicos/7.jpg" class="popup_link"><img src="assets/servicos/7.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-6 col-lg-3 element-item web mb-3">
+                <a href="assets/servicos/8.jpg" class="popup_link"><img src="assets/servicos/8.jpg" alt="" class="img-fluid"></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="customer">
+        <div class="container">
+            <h2>CUSTOMER</h2>
+            <div class="owl-carousel owl-theme"></div>
+            
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        $(window).scroll(function(){
+            let scrollY = $(window).scrollTop();
+            if(scrollY > 200){
+                $(".headerwrap").addClass("fixed-top")
+            }else{
+                $(".headerwrap").removeClass("fixed-top")
+            }
+        });
+
+        const btns = $(".pf .btn-group .btn")
+
+        btns.click(function(){
+            let i = $(this).index()
+
+            btns.removeClass("active");
+            btns.eq(i).addClass("active");
+
+            let selector = btns.eq(i).attr("data-filter");
+
+            $(".pf .row").isotope({
+                filter:selector
+            })
+        })
+
+        window.onload = function(){
+            $(".pf .btn-group #btn1").trigger("click")
+        }
+        $(".pf .row .popup_link").magnificPopup({type:"image"})
+    </script>
+
+
+  </body>
+</html>
